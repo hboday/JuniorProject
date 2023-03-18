@@ -2,7 +2,7 @@
 #   {start_time: "2023-02-16 19:08:05", end_time: "2023-02-17 03:08:05"},
 #   {start_time: "2023-02-18 16:50:54", end_time: "2023-02-18 20:50:54"}
 #
-# ])
+# ]) 
 
 user1 = User.create!(username: 'mashael', password: 'password123', password_confirmation: 'password123')
 user2 = User.create!(username: 'hessa', password: 'password123', password_confirmation: 'password123')
