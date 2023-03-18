@@ -8,7 +8,7 @@ user1 = User.create!(username: 'mashael', password: 'password123', password_conf
 user2 = User.create!(username: 'hessa', password: 'password123', password_confirmation: 'password123')
 user3 = User.create!(username: 'fatima', password: 'password123', password_confirmation: 'password123')
 user4 = User.create!(username: 'noor', password: 'password123', password_confirmation: 'password123')
-
+ 
 Location.create!([
                    { name: 'AlWaab', address: 'XYZ Street' },
                    { name: 'AlSadd', address: 'ABC Street' }
